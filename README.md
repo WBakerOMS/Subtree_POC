@@ -13,6 +13,16 @@ You want to add repositories as remotes so you can use aliases.
 
 Add the repository contents to a given directory. Reference, refers to the tag, commit (sha), or branch.
 
+### Pull subtree
+`git subtree pull --prefix=<directory> <remote alias> <reference>`
+
+Pulling commits from the other repository works more like merging. It's the same as add but with add replaced with pull.
+
+### Push subtree
+`git subtree push --prefix=<directory> <remote alias> <branch>`
+
+If you update the subtree directory you can push these changes to it's repository.
+
 ### Remote list
 `git remote -v`
 
