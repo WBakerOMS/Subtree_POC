@@ -16,6 +16,9 @@ int id_check(int id)
     case c_id3:
         cout << "core 3 identifier" << endl;
         break;
+    case c_id9:
+        cout << "core 9 identifier" << endl;
+        break;
     default:
         return non_core_ids(id);
     }
