@@ -2,14 +2,16 @@
 #include <vector>
 #include <string>
 
+#include "core/core.hpp"
+
 using namespace std;
 
 int main()
 {
-    vector<string> msg {"Hello", "world"};
-
-    for (const string& word : msg)
+    for (int i = 0; i < 10; i++)
     {
-        cout << word << endl;
+        id_check(i);
     }
+
+    return 0;
 }
