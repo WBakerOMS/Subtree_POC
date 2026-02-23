@@ -6,6 +6,7 @@ enum core_ids
     c_id3,
     c_id9 = 8,
     c_id10,
+    c_id11,
 };
 
 int non_core_ids(int id);
